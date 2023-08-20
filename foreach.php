@@ -1,8 +1,8 @@
 <?php
-$num=0;
-$names = array('Alex','Billy','Dale');
-foreach($names as $name){
-    echo 'name '. $num .' is '. $name .'<br>';
-    $num++;
+
+$names = array('Alex'=>12,'Billy'=>13,'Dale'=>14);
+
+foreach($names as $name=>$key){
+    echo $name. $key .'<br>';
 }
 ?>
